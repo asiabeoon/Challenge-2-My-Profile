@@ -13,7 +13,7 @@ body {
       font-size: 15px;
       
   }
-  
+
   h1 {
     color:#59b31d;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -34,15 +34,17 @@ body {
   
   .nav_bar{
     overflow: hidden;
-    background-color: rgb(151, 22, 151)
+    background-color: rgb(151, 22, 151);
+   
   }
   
   .nav_bar {
      float: right;
-     color:purple; 
      text-align: center;
+     
      padding: 14px 16px;
-     font-size: 16px; 
+     font-size: 14px; 
+     display:inline-flexbox;
   }
   .nav_bar a:hover {
   background-color: #59b31d;
@@ -59,17 +61,38 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:25px;
     font-weight: 400;
-    letter-spacing:.3em;
+    letter-spacing:.1em;
     text-align: center;
     padding: 14px 16px;
   }
   
+  .boxed {
+    border-style: double;
+    border:20px #2f0ee9;
+    padding: 50px;
+    margin: auto;
+    width: 700px;
+
+  }
+
   article p {
     margin: 2% 0;
     font-size: 110%;
   }
   
-    
+  article figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  figure div{
+    display: flex;
+    justify-content: center;
+   
+  }
   
   
   
