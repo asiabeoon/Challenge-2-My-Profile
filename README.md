@@ -15,7 +15,7 @@ Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
-<img src="./images/My Picture.jpeg" alt="My Photo" width="25%" height="42"/> style="vertical-align:bottom">
+<img src="./images/screencapture-asiabeoon-github-io-Challenge-2-My-Profile-2022-09-19-23_50_57.png" alt=" Profile Screenshot" width="25%"/>
 
 ## Credits
 
